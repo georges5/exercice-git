@@ -1,2 +1,47 @@
-oui, c'est vrai, ce n'est pas une vraie page html.
-Mais ceci n'est qu'un exercice, non ?
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Présentation en trois colonnes avec entête et pied de page</title>
+<link href="style.css" rel="stylesheet" media="all" type="text/css"> 
+</head>
+<body>
+
+  <h1>Mise en page avec les CSS</h1>
+
+  <ul id="menu">
+    <li><a href="intro.htm">Introduction à la mise en page avec les CSS</a></li>
+    <li><a href="colonnes.htm">Présentation en colonnes avec les CSS</a></li>
+    <li><a href="domainefixe.htm">Domaines fixes avec les CSS</a></li>
+    <li><a href="barredemenu.htm">Barres de menu avec les CSS</a></li>
+    <li><a href="aiguillages.htm">Aiguillages de navigateurs avec les CSS</a></li>
+  </ul>
+
+  <div id="info">
+    <h2>Boîte d'info</h2>
+    <p>Etiez-vous étonné que le titre de cette boîte dans l'exemple 
+       précédent n'ait pas été balisé comme tel? Comme cette 
+       boîte d'information était placée, dans le code source, avant le contenu 
+       avec le titre principal, un titre de niveau 2 n'aurait pas encore eu de sens.</p>
+    <p>Dans le code source de l'exemple présent, le titre de la page est noté 
+       en premier, ce qui résoud ce problème sémantique.</p>
+  </div>
+
+  <div id="contenu">
+  <h2>Trois colonnes avec entête et pied de page</h2>
+    <p>Cet exemple est complété d'une entête et d'un pied de page.</p>
+    <p>L'entête est définie en titre de niveau 1 <h1> et peut 
+       être formatée avec les feuilles de style comme un élément <div> - ici avec une 
+       bordure et une couleur d'arrière-plan. On pourrait aussi insérer une image comme 
+       arrière-plan ou bien comme <img> dans <h1>.</p>
+    <p>Ne considérez pas cet exemple comme une mise en page terminée.
+       Utilisez le squelette HTML pour les contenus de votre page et adaptez les CSS 
+       à votre page selon vos désirs: essayez diverses tailles, couleurs, bordures, 
+       et ajoutez, par exemple, des images de votre choix.</p>
+  </div>
+
+  <p id="pied">Ce pied de page rétablit le flux 
+     par la propriété CSS 'clear'.</p>
+
+</body>
+</html>
