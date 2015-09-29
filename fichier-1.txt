@@ -1,0 +1,2 @@
+ceci est un exercice, je crée des fichiers dans mon repository local, puis je les publie sur github.
+Et oui.
